@@ -4,7 +4,7 @@
 - Especialidad (DS/DA/Web/QA/UX-UI): Web (Full Stack)
 - Fuente del proyecto: Brief técnico derivado del feedback de simulación de entrevista (TripleTen).
 - Link a la fuente original (dataset, repo, app a testear, brief): N/A (Entrevista de simulación)
-- Link al proyecto publicado: [Pega aquí el enlace a tu repositorio de GitHub]
+- Link al proyecto publicado: [Repo en GitHub](https://github.com/hesepiri/support-chatbot-finances)
 
 # 2. OBJETIVO 🎯
 
