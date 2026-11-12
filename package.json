@@ -1,0 +1,30 @@
+{
+  "name": "support-chatbot-finances",
+  "version": "1.0.0",
+  "description": "Módulo de chat de asistencia financiera en tiempo real con Socket.IO, React y cifrado E2E (Web Crypto API).",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "concurrently -n server,client -c green,cyan \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "node --watch server.js",
+    "dev:client": "vite",
+    "build": "vite build",
+    "start": "node server.js",
+    "test": "node test/smoke.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "vite": "^6.0.7"
+  }
+}
